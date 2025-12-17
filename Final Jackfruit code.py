@@ -44,7 +44,7 @@ def convert_to_grayscale_opencv(input_path, output_path):
 
 if __name__ == "__main__":
     # Define the input image file path
-    input_filename = r"C:\path\to\a\file\that\DOES\NOT\EXIST.png"
+    input_filename = r"Assets/Sunrise.jpg"
     
     # Generate the output filename by adding '_opencv_grayscale' before the extension
     base, ext = os.path.splitext(input_filename)
